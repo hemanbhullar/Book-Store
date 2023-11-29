@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/books", router)// localhost
 
 
-mongoose.connect("mongodb+srv://admin:XEC7TAhJFGnMBscv@cluster0.s7rbhp1.mongodb.net/bookStore?retryWrites=true&w=majority")
+mongoose.connect("")
 .then(()=>console.log("connect hogya Bhaiyo"))
 .then(()=> {
     app.listen(5000);
